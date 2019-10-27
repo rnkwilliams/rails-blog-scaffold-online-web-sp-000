@@ -29,11 +29,7 @@ RSpec.describe PostsController, type: :controller do
   # Post. As you add validations to Post, be sure to
   # adjust the attributes here as well.
   let(:valid_attributes) {
-    skip("Add a hash of attributes valid for your model")
-  }
-
-  let(:invalid_attributes) {
-    skip("Add a hash of attributes invalid for your model")
+    {title: "My String", description: "My desc"}
   }
 
   # This should return the minimal set of values that should be in the session
